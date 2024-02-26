@@ -10,7 +10,7 @@ accountCity="Delhi"
    because of issue in blockscope and functional scope
 */
 
-accountEmail="hc@hc.com"
+accountEmail="dev@hc.com"
 accountPassword="2121212"
 accountCity="Uttar Pradesh"
 console.log(accountEmail);
