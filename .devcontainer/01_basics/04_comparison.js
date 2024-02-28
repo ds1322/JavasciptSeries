@@ -19,8 +19,7 @@ Comparisons convert null to a number,treating as 0.
 That's why(3) null>=0 is true and (1) null>0 is false.  
 */
 
-// console.log(undefined>0);    /*
-We can avoid these type of compariosns
+// console.log(undefined>0);    /* We can avoid these type of compariosns
 // console.log(undefined==0);   */
 // console.log(undefined<0);
 // console.log(undefined>=0);
