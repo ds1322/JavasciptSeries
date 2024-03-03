@@ -15,9 +15,49 @@ const outsideTemp= null // null means empty not zero value
 
 let userEmail; // If we can't defined any value then it is undefined
 
+let userData= undefined; // We can manually declared undefined also
+
+const id = Symbol('123')
+const anotherId=Symbol('123')
+
+console.log(id===anotherId);
+
+const bigNumber = 345622292925266355353n 
+
 
 
 
 // Reference(Non-Primitive Data Types)
+//All Non-Primitive return types would be Object
 
 //Array,Objects,Functions
+
+// Array
+const heros = ["shaktiman", "naagraj","doga"]; // Reference Type or Non- Primitive Type
+
+// Objects
+//Objects defined in curlyBraces
+let myObj = {
+    name:"devansh",
+    age: 22,
+
+}
+
+//Functions
+
+const myFunction =  function(){ //It's type is object Function
+
+    console.log("Hello World");
+
+}
+
+//How to find dataType of any value
+console.log(typeof bigNumber);
+
+console.log(typeof outsideTemp);
+
+console.log(typeof myFunction);
+
+console.log(typeof heros);
+
+console.log(typeof myObj);
