@@ -61,3 +61,9 @@ console.log(typeof myFunction);
 console.log(typeof heros);
 
 console.log(typeof myObj);
+
+
+//******************************************************************************* */
+
+//Stack Memory(Primitive Types) and Heap Memory(Non-Primitive Types)
+
