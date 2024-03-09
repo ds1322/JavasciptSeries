@@ -24,5 +24,16 @@ const newString = gameName.substring(0,4)
 
 const anotherString = gameName.slice(-9,-6)
 
-console.log(anotherString);
+//console.log(anotherString);
 
+const newStringOne = "   hitesh    "
+
+console.log(newStringOne);
+console.log(newStringOne.trim());
+
+const url = "https://devansh.com/devansh%20sharma"
+
+console.log(url.replace("%20",'-'));
+
+console.log(url.includes("devansh"));
+console.log(gameName.split('-'));
